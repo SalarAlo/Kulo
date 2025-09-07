@@ -1,0 +1,3 @@
+[submodule "Kulo/vendor/spdlog"]
+	path = Kulo/vendor/spdlog
+	url = https://github.com/gabime/spdlog

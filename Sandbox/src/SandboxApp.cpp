@@ -3,7 +3,6 @@
 class Sandbox : public Kulo::Application {
 public:
 	Sandbox() {
-
 	}
 
 	~Sandbox() {
