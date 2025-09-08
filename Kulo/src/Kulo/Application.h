@@ -2,9 +2,9 @@
 
 #include "Core.h"
 
-namespace Kulo {
-	class KULO_API Application 
-	{
+namespace Kulo
+{
+	class KULO_API Application {
 	public:
 		Application();
 		virtual ~Application();
@@ -13,4 +13,4 @@ namespace Kulo {
 
 	// to be defined in client
 	Application *CreateApplication();
-} 
+}

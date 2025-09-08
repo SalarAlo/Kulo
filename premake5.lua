@@ -8,11 +8,12 @@ workspace "Kulo"
         "Dist"
     }
     
-local outputdir = "%{cfg.buildcfg}-%{cfg.system}-{cfg.architecture}"
+local outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 project "Kulo"
     location "Kulo"
     kind "SharedLib"
+    staticruntime "Off"
     language "C++"
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
@@ -26,7 +27,8 @@ project "Kulo"
 
     includedirs 
     {
-        "%{prj.name}/vendor/spdlog/include"
+        "%{prj.name}/vendor/spdlog/include",
+        "%{prj.name}/src"
     }
 
     filter "system:windows"

@@ -4,6 +4,9 @@
     <Filter Include="Kulo">
       <UniqueIdentifier>{0030887C-EC66-890D-9553-6F108169050F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kulo\Events">
+      <UniqueIdentifier>{E4DBE736-5091-602C-D985-5A03453A5730}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Kulo.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Kulo\EntryPoint.h">
       <Filter>Kulo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kulo\Events\ApplicationEvent.h">
+      <Filter>Kulo\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kulo\Events\Event.h">
+      <Filter>Kulo\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kulo\Events\KeyEvent.h">
+      <Filter>Kulo\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kulo\Events\MouseEvent.h">
+      <Filter>Kulo\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Kulo\Log.h">
       <Filter>Kulo</Filter>
